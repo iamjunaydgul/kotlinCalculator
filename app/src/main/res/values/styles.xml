@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1.5</item>
+        <item name="android:gravity">end</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/colorButton</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:drawable">@drawable/btn_background</item>
+    </style>
+
+    <style name="NumberBtnStyle" parent="ButtonStyle">
+        <item name="android:onClick">numberBtnOnClick</item>
+    </style>
+
+    <style name="OperatorBtnStyle" parent="ButtonStyle">
+        <item name="android:onClick">operatorBtnOnClick</item>
+        <item name="android:textColor">@color/colorBtnEqual</item>
+    </style>
+
+    <style name="LinearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:weightSum">4</item>
+    </style>
+
+</resources>

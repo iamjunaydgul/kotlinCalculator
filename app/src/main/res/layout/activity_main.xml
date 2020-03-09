@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/calcScreenExp"
+        style="@style/TextViewStyle"
+        android:scrollbars="horizontal"
+        android:text="@string/zero"
+        tools:text="1000+452" />
+
+    <TextView
+        android:id="@+id/calcScreenResult"
+        style="@style/TextViewStyle"
+        tools:text="1452" />
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <Button
+            android:id="@+id/btnClear"
+            style="@style/ButtonStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/clear_btn"
+            android:textColor="@color/colorBtnEqual" />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            style="@style/ButtonStyle"
+            android:background="@drawable/btn_background"
+            android:contentDescription="@string/back_btn"
+            android:src="@drawable/ic_backspace" />
+
+        <Button
+            android:id="@+id/btnSignChange"
+            style="@style/ButtonStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/btn_sign_change"
+            android:textColor="@color/colorBtnEqual" />
+
+        <Button
+            android:id="@+id/btnDivide"
+            style="@style/OperatorBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/divide_btn" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/NumberBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/seven_btn" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/NumberBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/eight_btn" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="@style/NumberBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/nine_btn" />
+
+        <Button
+            android:id="@+id/btnMul"
+            style="@style/OperatorBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/mul_btn" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/NumberBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/four_btn" />
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/NumberBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/five_btn" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/NumberBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/six_btn" />
+
+        <Button
+            android:id="@+id/btnPlus"
+            style="@style/OperatorBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/plus_btn" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/NumberBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/one_btn" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/NumberBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/two_btn" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/NumberBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/three_btn" />
+
+        <Button
+            android:id="@+id/btnMinus"
+            style="@style/OperatorBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/minus_btn" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <Button
+            android:id="@+id/btnPoint"
+            style="@style/ButtonStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/point_btn" />
+
+        <Button
+            android:id="@+id/btn0"
+            style="@style/NumberBtnStyle"
+            android:background="@drawable/btn_background"
+            android:text="@string/zero_btn" />
+
+        <Button
+            android:id="@+id/btnEqual"
+            style="@style/ButtonStyle"
+            android:layout_weight="2"
+            android:background="@drawable/btn_colored_background"
+            android:text="@string/equal_btn" />
+    </LinearLayout>
+
+</LinearLayout>
